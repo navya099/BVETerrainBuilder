@@ -1,6 +1,6 @@
 from .rail import Rail
 from .curve import Curve
-from vector2 import Vector2
+from util.vector2 import Vector2
 
 class Alignment:
     def __init__(self, name: str):

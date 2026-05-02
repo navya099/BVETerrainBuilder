@@ -1,17 +1,14 @@
-from rich.progress import track
-
 from coord.coord_sampler import CoordinateProcessor
 import logging
 
 from mesh.mesh_modifier import MeshModifier
 from out.output_manger import OutputExporter
 from plot.plot import MeshPlotter
-from slope.slope_assembler import SlopeAssembler
 from slope.slope_manager import SlopeManager
 from terrain.terrain_assembler import TerrainAssembler
 from track.processor import TrackProcessor
 from terrain.terrain_builder import TerrainBuilder
-from util import get_stations, get_earthwork_sections
+from util.util import get_earthwork_sections
 
 
 class SegmentProcessor:

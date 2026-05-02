@@ -1,8 +1,8 @@
 import meshio
 import numpy as np
 
-from coordinate_utils import convert_coordinates
-from srtm30 import SrtmDEM30
+from util.coordinate_utils import convert_coordinates
+from util.srtm30 import SrtmDEM30
 
 from shapely import Polygon
 

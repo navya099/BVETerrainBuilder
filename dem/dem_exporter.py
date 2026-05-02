@@ -2,7 +2,7 @@ import meshio
 import numpy as np
 import rasterio
 from rasterio.crs import CRS
-from coordinate_utils import convert_coordinates
+from util.coordinate_utils import convert_coordinates
 
 class DEMExporter:
     """DEM 출력 모듈"""

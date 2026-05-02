@@ -4,7 +4,7 @@ from scipy.spatial import cKDTree
 from shapely import Polygon
 from shapely.ops import triangulate
 import logging
-from util import interpolate_z
+from util.util import interpolate_z
 
 
 class TerrainModifier :

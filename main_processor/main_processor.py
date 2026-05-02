@@ -2,7 +2,7 @@ import logging
 
 from alignment.calculoatr import AlignmentCalculator
 from coord.coord_sampler import CoordinateProcessor
-from coordinate_utils import convert_coordinates
+from util.coordinate_utils import convert_coordinates
 from dem.dem import DEMProcessor
 from folder_manger.foleder_manger import FolderManager
 from out.output_manger import OutputExporter
@@ -27,9 +27,6 @@ class MainProcessor:
             obj_path = 'C:/temp/OBJ/'
             dem_path = 'C:/temp/DEM/'
             shp_path = 'C:/temp/SHP/'
-            FolderManager.create(obj_path)
-            FolderManager.create(dem_path)
-            FolderManager.create(shp_path)
 
             #좌표 샘플링
             self.xy_list, self.xyz_list = self.coord_processor.sample(read_coords=self.read_coords)

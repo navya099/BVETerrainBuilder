@@ -1,7 +1,7 @@
 import numpy as np
 
 from slope.slope_creator import SlopeBuilder
-from srtm30 import SrtmDEM30
+from util.srtm30 import SrtmDEM30
 
 
 class SlopeManager:

@@ -7,7 +7,7 @@ from track.track_creator import TrackCreator
 class TrackProcessor:
     """트랙 처리 클래스"""
     def __init__(self, coords):
-        self.trm = TrackCreator(coords, track_width=6)
+        self.trm = TrackCreator(coords, track_width=8)
 
     def build_track(self):
         """트랙 생성"""

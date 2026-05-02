@@ -1,8 +1,8 @@
-from math_utils import calculate_destination_coordinates
+from util.math_utils import calculate_destination_coordinates
 from .alignment import Alignment
 from .rail import Rail
-from vector2 import Vector2
-from vector3 import Vector3
+from util.vector2 import Vector2
+from util.vector3 import Vector3
 import math
 import numpy as np
 
